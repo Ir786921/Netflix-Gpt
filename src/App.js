@@ -1,9 +1,12 @@
 import './App.css';
+import Body from './Component/Body';
+import Header from './Component/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1 className = " bg-amber-600">Hii there from create react app</h1>
+    <Header/>
+      <Body/>
     </div>
   );
 }
