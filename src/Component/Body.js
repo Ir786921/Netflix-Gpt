@@ -4,7 +4,7 @@ import Signup from './Signup'
 
 const Body = () => {
   return (
-   <div className=' h-[100vh] flex justify-center' style={{backgroundImage:`url(${bodyImg})`}}> 
+   <div className=' h-[100vh] flex justify-center ' style={{backgroundImage:`url(${bodyImg})`}}> 
    <Signup/></div>
   )
 }
