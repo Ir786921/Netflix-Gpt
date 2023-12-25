@@ -8,10 +8,10 @@ export function validation(email, pwd, name) {
     );
   const fnameVal = /^[A-Z][A-Za-z\'\-]+([\ A-Za-z][A-Za-z\'\-]+)*$/.test(name);
 
-  if (!emailVal) return "Enter a correct email";
+  if (!emailVal) return "Email ID is not valid";
 
   if (!pwdVal) {
-    return "Enter Strong Password";
+    return "Password is not valid";
   }
 
 //   if (!fnameVal) {
